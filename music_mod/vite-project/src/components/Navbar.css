@@ -1,0 +1,50 @@
+/* src/components/Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  color: white;
+  padding: 0.75rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  margin: 0;
+  font-size: 1.5rem;
+}
+.login{
+   list-style: none;
+  display: flex;
+  gap: 1.5rem;
+   margin-left: 40px; 
+}
+.login li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login li a:hover {
+  text-decoration: underline;
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li  a{
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
