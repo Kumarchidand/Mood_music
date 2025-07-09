@@ -13,7 +13,7 @@ const Signup = () => {
     // You can add API logic here
 
     axios
-      .post("http://localhost:3001/signup", { name, email, password })
+      .post("https://mood-music-aaib.onrender.com/signup", { name, email, password })
       .then((response) => {
         console.log(response.data);
         // Redirect to login page after successful signup
