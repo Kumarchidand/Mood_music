@@ -11,7 +11,7 @@ const Home = () => {
   axios.defaults.withCredentials = true; // Ensure cookies are sent with requests
   useEffect(() => {
     axios
-      .get("http://localhost:3001/")
+      .get("https://mood-music-aaib.onrender.com/")
       .then((res) => {
         console.log(res);
         if (res.data !== "Success") {
